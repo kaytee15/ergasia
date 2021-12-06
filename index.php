@@ -16,10 +16,11 @@ Get Method<br/>
 
 <form action="" method="POST">
 
-<input type="text" placeholder="EPELEKSE ARXIO VLAKA" name="EPELEKSE ARXIO VLAKA">
+<input type="text" placeholder="EPELEKSE ARXIO " name="EPELEKSE ARXIO ">
 <input type="file" placeholder="choose file" >
 
-<button type="submit">UPLODE VLAKA
+<button type="submit">UPLODE 
+    
 
 </button>
 
