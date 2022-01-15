@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .bth{
+    margin: 20px 45% 0% 45% ;
+    background-color: brown;  
+    border: 8px solid black;  font-size: 1.2em;
+    display:inline-block ;
+    text-align: center;
+}
+body{
+        background-image: url(fonto3.png);
+        background-attachment: fixed;
+        background-repeat:repeat;
+        background-size: 15%;
+        background-position: center;
+        
+    }
+
+h1{
+     font-size: 2.3em;   
+     background-color: rgba(0, 3, 8, 0.9263);
+     color: rgb(255, 255, 255); 
+     font-weight: 30px;
+     text-align: center;
+
+     border-radius: 40px;
+     border: 8px solid rgb(0, 0, 0);
+    margin: 20px 30.5% 0% ;
+    display:inline-block ;
+
+    padding: 0% 10% 0% 10%;
+}
+.container{
+    background-color: brown;  
+    border: 8px solid black;  font-size: 1.2em;
+    display:inline-block ;
+    text-align: center;
+    margin: 20px 20.5% 0% ;
+  padding: 20px 10% 20px 10%;}
+  .button {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: 1em;
+    
+    }
+ input{   background-color: rgb(255, 255, 255);  
+    border: 8px solid black;  font-size: 1.11em;}
+    </style>
+    
+    </head>
+<body>
+  <div>
+    
+    <h1>
+        <b>
+            Tμήμα Ψηφιακών Συστημάτων Σπάρτης
+         </b>
+    </h1>
+ 
+</div>
+  <div  class="container">
+    <form action="login.php"   method="POST"> 
+        <input type="text"  name="username"  placeholder="Username" required autofocus="">
+        <input type="password" name="password"  placeholder="Password"required value="">
+        <input class="button" type="submit" name="submit" value="login">
+    </form>
+  </div>
+
+  <form action="indexxxx.php"> <button class="bth" type="submit"> <B>back to home</B>   </button></form>
+
+
+</body>
+</html>
