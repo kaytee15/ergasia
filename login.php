@@ -68,6 +68,7 @@ margin: 5px;
     a{
         color:black;
         font-size:1.2em;
+        border: 5px solid black;
     }
     body{
         background-image: url(fonto3.png);
@@ -101,7 +102,8 @@ input{
     font-size: 1.5em;    
  }
  a{
-     font-weight: 5px; }
+     font-weight: 5px; 
+    }
  textarea{
   margin: 1% 30% 1% 30%;
   padding: 0% 5% 0% 5%;

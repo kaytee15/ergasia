@@ -25,19 +25,16 @@ h1{
      color: rgb(255, 255, 255); 
      font-weight: 30px;
      text-align: center;
-
      border-radius: 40px;
      border: 8px solid rgb(0, 0, 0);
     margin: 20px 30.5% 0% ;
     display:inline-block ;
-
     padding: 0% 10% 0% 10%;
 }
 
 
-.pap{
-    margin: 20px;
-padding: 0% 50%;
+.pa{
+margin:2% 47.5%;
 background-color: brown;
 color: rgb(255, 255, 255); 
 font-size: 20px;
@@ -57,5 +54,5 @@ font-size: 20px;
 </html>
 
 
-<b><form action="indexxxx.php"> <button class="pap" type="submit"> back to home  </button></form></b>
+<b><form action="indexxxx.php"> <button class="pa" type="submit"> back to home  </button></form></b>
     
