@@ -89,16 +89,16 @@ h1{
     margin: 20px 30.5% 0% ;
     display:inline-block ;
 
-    padding: 0% 10% 0% 10%;
+  padding: 0% 10% 0% 10%;
 }
 b{
   font-size: 1em;
   font-weight: 20px;
 }
 input{
-    margin: 1% 70%;
+    margin: 1% 47.5%;
     background-color: brown;
-    
+    font-size: 1.5em;    
  }
  a{
      font-weight: 5px; }
