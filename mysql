@@ -1,0 +1,6 @@
+
+CREATE DATABASE login ;
+
+CREATE TABLE `login`.`daskaloi` ( `id` INT(50) NOT NULL AUTO_INCREMENT , `username` VARCHAR(50) NOT NULL , `password` VARCHAR(50) NOT NULL , `onoma` VARCHAR(50) NOT NULL , `epitheto` VARCHAR(50) NOT NULL , `email` VARCHAR(50) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+INSERT INTO `daskaloi` (`id`, `username`, `password`, `onoma`, `epitheto`, `email`) VALUES ('1', 'ds1', '12345', 'Γιάννης', 'Λιαπέρδος', ' i.liaperdos@uop.gr'), ('2', 'ds2', '12345', 'Πάνος ', 'Φιλιππόπουλος', ' p.filippopoulos@uop.gr'), ('3', 'ds3', '12345', 'Στέφανος ', 'Ουγιάρογλου', ' stoug@uop.gr'), ('4', 'ds4', '12345', 'Θάνος ', 'Παπαδημητρίου', ' a.papadimitriou@uop.gr');

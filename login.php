@@ -1,8 +1,31 @@
+<style>
+.mycss{
+font-size: 1.7em;
+color: white;
+border:2px solid #000;
+background: brown;
+font-weight: bold ;  
+
+padding: 5px 42.5% 0%;
+margin:20px;
+}
+.mycss1{
+font-size: 1.7em;
+ font-weight: bold ;  
+color: white;
+border:2px solid #000;
+background: brown;
+padding: 5px 40% ;
+margin: 5px;
+
+
+}
+</style>
 <?php
     $dbhost = "localhost";
     $dbuser = "root";
     $dbpass = "";
-    $db = "phplogin";
+    $db = "login";
 
 
     $conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
@@ -10,19 +33,24 @@
     $username = $_POST['username'];
     $password = $_POST['password'];
     
-    $sql = "SELECT *FROM user WHERE username = '$username' AND password ='$password'";
+    $sql = "SELECT *FROM daskaloi WHERE username = '$username' AND password ='$password'";
     $result = mysqli_query($conn,$sql);
     $row = mysqli_fetch_array($result);
     if($username == "" && $password == ""){
         header('location:index.html');
     }
     if($row['username'] == $username && $row['password'] == $password){
-        echo "hello " .$username." tap there to logout  ";
+      
+        echo "<p class='mycss'>   Hello $username";
+
+        echo "<p class='mycss1'>  Tap there to ";
+
     }else{
-        echo "<script>alert('Λαθος username H password')</script>";
+        echo "<script>alert('wrong username or password')</script>";
         echo "<script>location.replace('index.html')</script>";
     }
-
+"</p>";
+"</p>";
 
 
 ?>
@@ -37,6 +65,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
+    a{
+        color:black;
+        font-size:1.2em;
+    }
     body{
         background-image: url(fonto3.png);
         background-attachment: fixed;
@@ -68,6 +100,8 @@ input{
     background-color: brown;
     
  }
+ a{
+     font-weight: 5px; }
  textarea{
   margin: 1% 30% 1% 30%;
   padding: 0% 5% 0% 5%;
@@ -106,6 +140,5 @@ input{
 <textarea  wrap=off placeholder="text here" cols="30" rows="5">
   </textarea>
   <input type="submit" value="post">
-
 </body>
 </html> 

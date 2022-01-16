@@ -24,51 +24,9 @@ text-align: center;
    max-width: 80%;
         max-height: 80%;
         margin: 2.5% 50% 2.5% 27% ;
-        display: inline-block;
+        display: inline-block;}
+  
 
-    }
-        .announcement {
-  display: inline-block;
-  height: 100%;
-  text-align: center;
-  width: 100%;
-  background: black;
-  color: white;
-  font-family: Arial, sans;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  font-size: 0.8em;
-}
-
-.announcement a { 
-  color: #ccc; 
-}
-
-.announcement a:hover {
-  color: red;
-}
-    .kkk{   
-         margin: 0.5% 31.5% ;
-        background-color: brown;
-        padding: 1% 4% 0% 4%;  
-    } 
-
-    .k{     
-    background-color: brown;  
-    background-size: cover;
-    border: 8px solid black;  font-size: 1.2em;
-    display:inline-block ;
-    margin: 1% 42.5% 1% 40.5%;
-    padding: 1% 4% 0% 4%;  
-    text-align: center;}    
-
-
-.skr{
-    background-color: rgba(0, 3, 8, 0.9263);
-    margin: 35% 20px 5% 10%;
-    
-}
 body{
         background-image: url(fonto3.png);
         background-attachment: fixed;
@@ -121,9 +79,9 @@ h1{
 </div>
 <div id="images">
    
-    <a href="login.php"> <b class="mlk"> pata ayto ama eisai kathigitis --></b>
+    <a href="login.php"> <b class="mlk">  Tap here if you are teacher></b>
     <img class="logo"  alt="" src="kath2.jpg"/></a>
 
-  <a href="indexxxxx.php" >  <b class="mlk"> pata auto ama eisai foititis--></b>
+  <a href="indexxxxx.php" >  <b class="mlk">  Tap here if you are student></b>
         <img class="logo"  alt="" src="foit2.jpg"/></a></div>
 </html>
